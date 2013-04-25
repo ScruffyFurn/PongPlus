@@ -1,0 +1,57 @@
+C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bin\Debug\resources.pri
+C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bin\Debug\AppxManifest.xml
+C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bin\Debug\HTML5_Template.build.appxrecipe
+C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bld\Debug\priconfig.xml
+C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bld\Debug\layout.resfiles
+C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bld\Debug\resources.resfiles
+C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bld\Debug\pri.resfiles
+C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bld\Debug\LanguageQualifiers.txt
+C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bld\Debug\ProjectArchitectures.txt
+C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bld\Debug\priconfig.xml.intermediate
+C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bld\Debug\layout.resfiles.intermediate
+C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bld\Debug\resources.resfiles.intermediate
+C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bld\Debug\pri.resfiles.intermediate
+C:\Users\t-mima\Downloads\HTML5_Template Alpha 2\HTML5_Template\HTML5_Template\bin\Debug\resources.pri
+C:\Users\t-mima\Downloads\HTML5_Template Alpha 2\HTML5_Template\HTML5_Template\bin\Debug\AppxManifest.xml
+C:\Users\t-mima\Downloads\HTML5_Template Alpha 2\HTML5_Template\HTML5_Template\bin\Debug\HTML5_Template.build.appxrecipe
+C:\Users\t-mima\Downloads\HTML5_Template Alpha 2\HTML5_Template\HTML5_Template\bld\Debug\priconfig.xml
+C:\Users\t-mima\Downloads\HTML5_Template Alpha 2\HTML5_Template\HTML5_Template\bld\Debug\layout.resfiles
+C:\Users\t-mima\Downloads\HTML5_Template Alpha 2\HTML5_Template\HTML5_Template\bld\Debug\resources.resfiles
+C:\Users\t-mima\Downloads\HTML5_Template Alpha 2\HTML5_Template\HTML5_Template\bld\Debug\pri.resfiles
+C:\Users\t-mima\Downloads\HTML5_Template Alpha 2\HTML5_Template\HTML5_Template\bld\Debug\LanguageQualifiers.txt
+C:\Users\t-mima\Downloads\HTML5_Template Alpha 2\HTML5_Template\HTML5_Template\bld\Debug\ProjectArchitectures.txt
+C:\Users\Michael\Desktop\HTML5_Template\bin\Debug\resources.pri
+C:\Users\Michael\Desktop\HTML5_Template\bin\Debug\AppxManifest.xml
+C:\Users\Michael\Desktop\HTML5_Template\bin\Debug\HTML5_Template.build.appxrecipe
+C:\Users\Michael\Desktop\HTML5_Template\bld\Debug\priconfig.xml
+C:\Users\Michael\Desktop\HTML5_Template\bld\Debug\layout.resfiles
+C:\Users\Michael\Desktop\HTML5_Template\bld\Debug\resources.resfiles
+C:\Users\Michael\Desktop\HTML5_Template\bld\Debug\pri.resfiles
+C:\Users\Michael\Desktop\HTML5_Template\bld\Debug\LanguageQualifiers.txt
+C:\Users\Michael\Desktop\HTML5_Template\bld\Debug\ProjectArchitectures.txt
+C:\Users\Michael\Desktop\HTML5_Template\bld\Debug\priconfig.xml.intermediate
+C:\Users\Michael\Desktop\HTML5_Template\bld\Debug\layout.resfiles.intermediate
+C:\Users\Michael\Desktop\HTML5_Template\bld\Debug\resources.resfiles.intermediate
+C:\Users\Michael\Desktop\HTML5_Template\bld\Debug\pri.resfiles.intermediate
+C:\Users\Michael\Desktop\HTML5_Template UTF8\bin\Debug\resources.pri
+C:\Users\Michael\Desktop\HTML5_Template UTF8\bin\Debug\AppxManifest.xml
+C:\Users\Michael\Desktop\HTML5_Template UTF8\bin\Debug\HTML5_Template.build.appxrecipe
+C:\Users\Michael\Desktop\HTML5_Template UTF8\bld\Debug\priconfig.xml.intermediate
+C:\Users\Michael\Desktop\HTML5_Template UTF8\bld\Debug\layout.resfiles.intermediate
+C:\Users\Michael\Desktop\HTML5_Template UTF8\bld\Debug\resources.resfiles.intermediate
+C:\Users\Michael\Desktop\HTML5_Template UTF8\bld\Debug\pri.resfiles.intermediate
+C:\Users\Michael\Desktop\HTML5_Template UTF8\bld\Debug\priconfig.xml
+C:\Users\Michael\Desktop\HTML5_Template UTF8\bld\Debug\layout.resfiles
+C:\Users\Michael\Desktop\HTML5_Template UTF8\bld\Debug\resources.resfiles
+C:\Users\Michael\Desktop\HTML5_Template UTF8\bld\Debug\pri.resfiles
+C:\Users\Michael\Desktop\HTML5_Template UTF8\bld\Debug\LanguageQualifiers.txt
+C:\Users\Michael\Desktop\HTML5_Template UTF8\bld\Debug\ProjectArchitectures.txt
+C:\Users\Michael\Desktop\HTML5 Template Complete\bin\Debug\resources.pri
+C:\Users\Michael\Desktop\HTML5 Template Complete\bin\Debug\AppxManifest.xml
+C:\Users\Michael\Desktop\HTML5 Template Complete\bin\Debug\HTML5_Template.build.appxrecipe
+C:\Users\Michael\Desktop\HTML5 Template Complete\bld\Debug\priconfig.xml
+C:\Users\Michael\Desktop\HTML5 Template Complete\bld\Debug\layout.resfiles
+C:\Users\Michael\Desktop\HTML5 Template Complete\bld\Debug\resources.resfiles
+C:\Users\Michael\Desktop\HTML5 Template Complete\bld\Debug\pri.resfiles
+C:\Users\Michael\Desktop\HTML5 Template Complete\bld\Debug\LanguageQualifiers.txt
+C:\Users\Michael\Desktop\HTML5 Template Complete\bld\Debug\ProjectArchitectures.txt
