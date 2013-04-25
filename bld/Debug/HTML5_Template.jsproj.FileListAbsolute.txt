@@ -1,4 +1,4 @@
-C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bin\Debug\resources.pri
+﻿C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bin\Debug\resources.pri
 C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bin\Debug\AppxManifest.xml
 C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bin\Debug\HTML5_Template.build.appxrecipe
 C:\Users\Michael\Desktop\HTML5_Template\HTML5_Template\bld\Debug\priconfig.xml

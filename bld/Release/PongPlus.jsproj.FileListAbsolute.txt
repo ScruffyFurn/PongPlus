@@ -1,0 +1,13 @@
+C:\GitHub\PongPlus\bin\Release\resources.pri
+C:\GitHub\PongPlus\bin\Release\AppxManifest.xml
+C:\GitHub\PongPlus\bld\Release\priconfig.xml.intermediate
+C:\GitHub\PongPlus\bld\Release\layout.resfiles.intermediate
+C:\GitHub\PongPlus\bld\Release\resources.resfiles.intermediate
+C:\GitHub\PongPlus\bld\Release\pri.resfiles.intermediate
+C:\GitHub\PongPlus\bld\Release\priconfig.xml
+C:\GitHub\PongPlus\bld\Release\layout.resfiles
+C:\GitHub\PongPlus\bld\Release\resources.resfiles
+C:\GitHub\PongPlus\bld\Release\pri.resfiles
+C:\GitHub\PongPlus\bld\Release\LanguageQualifiers.txt
+C:\GitHub\PongPlus\bld\Release\ProjectArchitectures.txt
+C:\GitHub\PongPlus\bin\Release\PongPlus.build.appxrecipe

@@ -47,7 +47,10 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateKeyFile>HTML5_Template_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>C:\Users\Michael\Desktop\Microsoft\</AppxPackageDir>
+    <PackageCertificateThumbprint>4B0B348C324FA69FAB37E80BAB88351E4500E78C</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>PongPlus_StoreKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
@@ -77,7 +80,8 @@
     <Content Include="images\storelogo.png" />
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
-    <None Include="PongPlus.pfx" />
+    <None Include="PongPlus_StoreKey.pfx" />
+    <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />

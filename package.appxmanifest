@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="cac50f1c-50c3-4b01-9ec0-afa896fbee8b" Version="1.0.0.0" Publisher="CN=Michael" />
+  <Identity Name="24335IrishMickey.Pong" Version="1.0.0.3" Publisher="CN=65744DF3-6AD7-4D2F-B922-CA754BE8685A" />
   <Properties>
     <DisplayName>Pong+</DisplayName>
     <PublisherDisplayName>IrishMickey</PublisherDisplayName>
