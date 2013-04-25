@@ -164,13 +164,13 @@
         stage.addChild(ballBitmap);
 
         // Scores //
-        playerScore = new createjs.Text('0', 'bold 20px Arial', '#cccccc'); // This is how we create text with createjs
+        playerScore = new createjs.Text('0', 'bold 20px Arial', '#515166'); // This is how we create text with createjs
         playerScore.scaleX = SCALE_X;
         playerScore.scaleY = SCALE_Y;
         playerScore.x = MARGIN;
         playerScore.y = MARGIN * SCALE_Y;
 
-        cpuScore = new createjs.Text('0', 'bold 20px Arial', '#cccccc');
+        cpuScore = new createjs.Text('0', 'bold 20px Arial', '#515166');
         cpuScore.scaleX = SCALE_X;
         cpuScore.scaleY = SCALE_Y;
         cpuScore.x = canvas.width - (cpuScore.getMeasuredWidth() * SCALE_X) - MARGIN;
@@ -180,7 +180,7 @@
         stage.update();
 
         // Game Title //
-        title = new createjs.Text("Pong+", "30px sans-serif", "#cccccc");
+        title = new createjs.Text("Pong+", "30px Byington", "#515166");
         title.scaleX = SCALE_X;
         title.scaleY = SCALE_Y;
         title.x = canvas.width * 0.5 - (title.getMeasuredWidth() * SCALE_X) * 0.5;
@@ -275,6 +275,17 @@
         else if (cpuBitmap.y > ballBitmap.y) {
             cpuBitmap.y = cpuBitmap.y - cpuSpeed;
         }
+
+        if (cpuBitmap.x < ballBitmap.x) {
+            cpuBitmap.x = cpuBitmap.x + cpuSpeed;
+        }
+        else if (cpuBitmap.x > ballBitmap.x) {
+            cpuBitmap.x = cpuBitmap.x - cpuSpeed;
+        }
+
+        if (cpuBitmap.x <= canvas.width * 0.5 - (cpuImage.width * SCALE_X)) {
+            cpuBitmap.x = canvas.width * 0.5 - (cpuImage.width * SCALE_X);
+        }
  
         // Wall Collision //
         //Up
@@ -309,19 +320,59 @@
         }
 
         // Cpu collision //
-       
+        /*       
         if (ballBitmap.x >= cpuBitmap.x - ((ballImage.width * SCALE_X) * 0.5) &&
         (ballBitmap.y <= cpuBitmap.y + ((cpuImage.height * SCALE_Y) * 0.5) &&
         ballBitmap.y >= cpuBitmap.y - ((cpuImage.height * SCALE_Y) * 0.5))) {
             xSpeed *= -1;
             createjs.Sound.play('hit');
         }
+        */
+        var intersection = ndgmr.checkRectCollision(ballBitmap, cpuBitmap);
+        if (intersection) {
+           
+            var overlap_X = intersection.rect1.width * 0.5 + intersection.rect2.width* 0.5 
+            var overlap_Y = intersection.rect1.height * 0.5 + intersection.rect2.height * 0.5;
+            if (cpuBitmap.x >= ballBitmap.x) {
+                ballBitmap.x -= overlap_X - (cpuImage.width /2);
+            }
+            if (cpuBitmap.x <= ballBitmap.x) {
+                ballBitmap.x += overlap_X + (cpuImage.width /2);
+            }
+
+            if (cpuBitmap.x > ballBitmap.x) {
+                xSpeed = -xSpeed;
+            }
+            
+            createjs.Sound.play('hit');
+        }
+
 
         // Player collision //
+        /*
         if (ballBitmap.x <= playerBitmap.x + ((ballImage.width * SCALE_X) * 0.5) &&
             (ballBitmap.y <= playerBitmap.y + ((playerImage.height * SCALE_Y) * 0.5) &&
             ballBitmap.y >= playerBitmap.y - ((playerImage.height * SCALE_Y) * 0.5))) {
             xSpeed *= -1;
+            createjs.Sound.play('hit');
+        }
+        */
+        var intersection = ndgmr.checkRectCollision(ballBitmap, playerBitmap);
+        if (intersection) {
+
+            var overlap_X = intersection.rect1.width * 0.5 + intersection.rect2.width * 0.5
+            var overlap_Y = intersection.rect1.height * 0.5 + intersection.rect2.height * 0.5;
+            if (playerBitmap.x >= ballBitmap.x) {
+                ballBitmap.x -= overlap_X - (playerImage.width / 2);
+            }
+            if (playerBitmap.x <= ballBitmap.x) {
+                ballBitmap.x += overlap_X + (playerImage.width / 2);
+            }
+
+            if (playerBitmap.x < ballBitmap.x) {
+                xSpeed = -xSpeed;
+            }
+            
             createjs.Sound.play('hit');
         }
 
@@ -329,6 +380,11 @@
         if (playerBitmap.y >= canvas.height - (playerImage.height * SCALE_Y)) {
             playerBitmap.y = canvas.height - (playerImage.height * SCALE_Y);
         }
+
+        if (playerBitmap.x >= canvas.width * 0.5 - (playerImage.width * SCALE_X)) {
+            playerBitmap.x = canvas.width * 0.5 - (playerImage.width * SCALE_X);
+        }
+
 
 
         // Check for Win //
@@ -346,7 +402,10 @@
 
     function movePaddle(e) {
         // Player Movement
-        playerBitmap.y = e.stageY; 
+        playerBitmap.y = e.stageY;
+        playerBitmap.x = e.stageX;
+
+        
     }
 
     // Reset, this will set the paddle and ball to their starting place

@@ -7,86 +7,89 @@
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Michael\Desktop\HTML5 Template Complete\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\GitHub\PongPlus\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\Assets\ball.png">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\Assets\ball.png">
       <PackagePath>Assets\ball.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\Assets\bg.png">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\Assets\bg.png">
       <PackagePath>Assets\bg.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\Assets\lose.png">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\Assets\lose.png">
       <PackagePath>Assets\lose.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\Assets\paddle.png">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\Assets\paddle.png">
       <PackagePath>Assets\paddle.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\Assets\pause.png">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\Assets\pause.png">
       <PackagePath>Assets\pause.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\Assets\win.png">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\Assets\win.png">
       <PackagePath>Assets\win.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\images\logo.png">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\images\storelogo.png">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\Assets\enemyScore.mp3">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\Assets\enemyScore.mp3">
       <PackagePath>Assets\enemyScore.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\Assets\hit.mp3">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\Assets\hit.mp3">
       <PackagePath>Assets\hit.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\Assets\playerScore.mp3">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\Assets\playerScore.mp3">
       <PackagePath>Assets\playerScore.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\Assets\wall.mp3">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\Assets\wall.mp3">
       <PackagePath>Assets\wall.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\CreateJS\easeljs-0.5.0.min.js">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\CreateJS\easeljs-0.5.0.min.js">
       <PackagePath>CreateJS\easeljs-0.5.0.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\CreateJS\movieclip-0.5.0.min.js">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\CreateJS\movieclip-0.5.0.min.js">
       <PackagePath>CreateJS\movieclip-0.5.0.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\CreateJS\preloadjs-0.3.0.min.js">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\CreateJS\ndgmr.Collision.js">
+      <PackagePath>CreateJS\ndgmr.Collision.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\CreateJS\preloadjs-0.3.0.min.js">
       <PackagePath>CreateJS\preloadjs-0.3.0.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\CreateJS\soundjs-0.4.0.min.js">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\CreateJS\soundjs-0.4.0.min.js">
       <PackagePath>CreateJS\soundjs-0.4.0.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\CreateJS\soundjs.flashplugin-0.3.0.min.js">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\CreateJS\soundjs.flashplugin-0.3.0.min.js">
       <PackagePath>CreateJS\soundjs.flashplugin-0.3.0.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\CreateJS\tweenjs-0.3.0.min.js">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\CreateJS\tweenjs-0.3.0.min.js">
       <PackagePath>CreateJS\tweenjs-0.3.0.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\js\default.js">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\default.html">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\css\default.css">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Michael\Desktop\HTML5 Template Complete\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\GitHub\PongPlus\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

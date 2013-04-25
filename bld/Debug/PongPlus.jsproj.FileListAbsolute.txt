@@ -11,3 +11,16 @@ C:\Users\Michael\Desktop\HTML5 Template Complete\bld\Debug\resources.resfiles
 C:\Users\Michael\Desktop\HTML5 Template Complete\bld\Debug\pri.resfiles
 C:\Users\Michael\Desktop\HTML5 Template Complete\bld\Debug\LanguageQualifiers.txt
 C:\Users\Michael\Desktop\HTML5 Template Complete\bld\Debug\ProjectArchitectures.txt
+C:\GitHub\PongPlus\bin\Debug\resources.pri
+C:\GitHub\PongPlus\bin\Debug\AppxManifest.xml
+C:\GitHub\PongPlus\bin\Debug\PongPlus.build.appxrecipe
+C:\GitHub\PongPlus\bld\Debug\priconfig.xml.intermediate
+C:\GitHub\PongPlus\bld\Debug\layout.resfiles.intermediate
+C:\GitHub\PongPlus\bld\Debug\resources.resfiles.intermediate
+C:\GitHub\PongPlus\bld\Debug\pri.resfiles.intermediate
+C:\GitHub\PongPlus\bld\Debug\priconfig.xml
+C:\GitHub\PongPlus\bld\Debug\layout.resfiles
+C:\GitHub\PongPlus\bld\Debug\resources.resfiles
+C:\GitHub\PongPlus\bld\Debug\pri.resfiles
+C:\GitHub\PongPlus\bld\Debug\LanguageQualifiers.txt
+C:\GitHub\PongPlus\bld\Debug\ProjectArchitectures.txt
